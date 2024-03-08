@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+td.abs {
+	position: relative;
+}
+
+button.text-success {
+	border: 0px solid white;
+}
+
+p {
+	font-size: medium;
+}
+
+.my-card-header {
+	background-color: rgb(255, 255, 255);
+}
+
+#add,
+#newTask::placeholder,
+#Date::placeholder {
+	color: #000000;
+}
+
+#add {
+	background-color: #f09090;
+	height: 2.5rem;
+	width: 4rem;
+	border-radius: 0.25rem;
+}
+#add:hover {
+	background-color: #316764;
+}
+
+#_calender_ {
+	background-color: #cec3b1;
+}
+
+.calender-icon {
+	color: black;
+	background-color: #cec3b1;
+}
+
+th {
+	color: #695149;
+}
+
+#_task_list,
+#_task_list_icon {
+	color: #316764;
+}
+
+#_card_header {
+	background-color: #f09090;
+}
+#_card_footer {
+	background-color: #316764;
+}
+
+tr,
+#_card_body {
+	background-color: #eda8a8;
+}
+
+#_table_body {
+	background-color: #f9e9da;
+}
+
+#newTask,
+#Date,
+#_calender_,
+#add {
+	border: 2px solid rgb(255, 255, 255);
+}
+
+.new_task,
+._date_ {
+	color: #497f76;
+}
+
+._date_ {
+	display: flex;
+	font-size: medium;
+	align-items: center;
+}
+
+.new_task {
+	display: flex;
+	font-size: large;
+	align-items: center;
+}
+
+.new_task.complete,
+._date_.complete {
+	text-decoration: line-through;
+	color: #3f3f3f;
+	font-style: italic;
+}
+
+._done {
+	color: rgb(9, 255, 0);
+	border: 2px solid #eda8a8;
+}
+
+._trash {
+	color: #d6014d;
+	border: 2px solid #eda8a8;
+}
+
+._date_icon {
+	color: #ffcd01;
+}
+
+#mySection,
+body {
+	background-color: white;
+}
+
+#_card_ {
+	border: 2px solid white;
+	box-shadow: 0px 0px 100px 10px #f09090;
+}
+
+section {
+	box-shadow: inset 0 0 50px 15px #497f76;
+}
